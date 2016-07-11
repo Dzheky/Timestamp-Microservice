@@ -6,6 +6,8 @@ app.get('/', function (req, res) {
   res.end('<h1>Hello World!</h1>');
 });
 
-app.listen(8080, function () {
+var port = Number(process.env.PORT || 8080)
+
+app.listen(port, function () {
   console.log('Example app listening on port 8080!');
 });
