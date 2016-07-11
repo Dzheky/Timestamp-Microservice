@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class='container'>
+            <h1 class='header'>FCC API project - Timestamp Microservice111</h1>
+            <backquote>
+                User Stories:
+                <ul>1) I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</ul>
+                <ul>2) If it does, it returns both the Unix timestamp and the natural language form of that date.</ul>
+                <ul>3) If it does not contain a date or Unix timestamp, it returns null for those properties.</ul>
+            </backquote>
+            <h3>Example Input:</h3>
+            <code>https://evgeny-timestamp-microservice.herokuapp.com/https:/June%2025,%202014</code><br>
+            <code>https://evgeny-timestamp-microservice.herokuapp.com/https:/1403654400000</code>
+            <h3>Example Output</h3>
+            <code>{"natural":"June 25, 2014","unix":1403654400000}</code>
+            
+        </div>
+    </body>
+</html>
